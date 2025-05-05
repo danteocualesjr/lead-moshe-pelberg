@@ -38,8 +38,8 @@ const Hero = ({ title, subtitle, cta, image }: HeroProps) => {
         <div className="hidden md:flex items-center justify-center animate-scale-in">
           <div className="glass-card p-2 rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-500">
             <img
-              src={image || "/lovable-uploads/84efbe06-3e60-457c-bdd2-a386203c2581.png"}
-              alt="Financial clarity illustration"
+              src={image || "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"}
+              alt="Financial accounting illustration"
               className="rounded w-full max-w-md"
             />
           </div>
