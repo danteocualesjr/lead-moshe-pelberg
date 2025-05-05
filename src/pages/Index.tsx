@@ -18,7 +18,7 @@ const Index = () => {
           title="Financial Clarity for Your Success"
           subtitle="Serving central Maryland since 2013 with Tax Compliance, Tax Planning, Accounting, and Bookkeeping for individuals and small businesses."
           cta={{ text: "Schedule a Consultation", link: "/contact" }}
-          image="/placeholder.svg"
+          image="/lovable-uploads/84efbe06-3e60-457c-bdd2-a386203c2581.png"
         />
         
         <section className="section-padding container">

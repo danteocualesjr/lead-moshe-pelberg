@@ -35,17 +35,15 @@ const Hero = ({ title, subtitle, cta, image }: HeroProps) => {
           )}
         </div>
         
-        {image && (
-          <div className="hidden md:flex items-center justify-center animate-scale-in">
-            <div className="glass-card p-2 rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-500">
-              <img
-                src={image}
-                alt="Hero illustration"
-                className="rounded w-full max-w-md"
-              />
-            </div>
+        <div className="hidden md:flex items-center justify-center animate-scale-in">
+          <div className="glass-card p-2 rounded-lg shadow-lg transform rotate-3 hover:rotate-0 transition-transform duration-500">
+            <img
+              src={image || "/lovable-uploads/84efbe06-3e60-457c-bdd2-a386203c2581.png"}
+              alt="Financial clarity illustration"
+              className="rounded w-full max-w-md"
+            />
           </div>
-        )}
+        </div>
       </div>
     </div>
   );
